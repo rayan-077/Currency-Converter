@@ -3,3 +3,7 @@ ChatGPT said:  My first coding project was a Currency Converter. It lets users c
 
 Created index.html, styles.css, and script.js
 Added basic HTML structure and styling for the converter layout
+
+
+Wrote loadCurrencies() function in script.js
+Populates "From" and "To" dropdowns with currency codes from API
