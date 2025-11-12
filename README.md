@@ -7,3 +7,10 @@ Added basic HTML structure and styling for the converter layout
 
 Wrote loadCurrencies() function in script.js
 Populates "From" and "To" dropdowns with currency codes from API
+
+
+Created convertCurrency() function
+
+Converts amount between selected currencies using API rates
+
+Displays result in the page dynamically
