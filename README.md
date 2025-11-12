@@ -18,3 +18,7 @@ Displays result in the page dynamically
 
 Implemented "Swap" button functionality to switch currencies 
 Saved last used currencies to localStorage for persistence
+
+Added input validation for amount (numeric & positive values)
+
+Display friendly error messages and formatted output with 2 decimal places
