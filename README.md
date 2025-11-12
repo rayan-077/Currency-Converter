@@ -14,3 +14,7 @@ Created convertCurrency() function
 Converts amount between selected currencies using API rates
 
 Displays result in the page dynamically
+
+
+Implemented "Swap" button functionality to switch currencies 
+Saved last used currencies to localStorage for persistence
