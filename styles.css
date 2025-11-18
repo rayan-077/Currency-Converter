@@ -1,0 +1,144 @@
+/* Reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background gradient */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #b0006d, #5f1a8b);
+}
+
+/* Outer container */
+.converter-container {
+  background: #fff;
+  padding: 40px 35px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Title */
+.converter-container h1 {
+  font-size: 22px;
+  color: #3e3e60;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+/* Input group */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #5a5a7a;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  background: #f4f4f8;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+/* Currency selectors */
+.currency-selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.selector label {
+  font-size: 14px;
+  color: #5a5a7a;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.selector select {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  background: #f4f4f8;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Swap button */
+#swap-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #5a5a7a;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: transform 0.3s ease;
+}
+
+#swap-btn:hover {
+  transform: rotate(180deg);
+}
+
+/* Convert button */
+#convert-btn {
+  width: 100%;
+  padding: 12px;
+  background: #3e3e60;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 25px;
+}
+
+#convert-btn:hover {
+  background: #2c2c45;
+}
+
+/* Result box */
+.result-box {
+  background: #f9f9fb;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#result {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Optional gradient bar */
+.result-box::after {
+  content: "";
+  display: block;
+  margin: 15px auto 0;
+  width: 90%;
+  height: 2px;
+  background: linear-gradient(90deg, #6c63ff, #b0006d);
+  border-radius: 4px;
+}
